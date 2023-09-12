@@ -40,7 +40,7 @@ updateDatas = dadosUsuario['MÊS'].dt.strftime('%Y/%b')
 dadosUsuario['MÊS'] = updateDatas
 
 # Exibir os dados filtrados
-st.header('PREÇO DO COMBUSTÍVEl EM TODO TERRITÓRIO NACIONAL')
+st.header('MÉDIA DE PREÇO DO COMBUSTÍVEl DE CADA ESTADO NO TERRITÓRIO NACIONAL')
 st.markdown('**Combustível Selecionado:** '+ fProduto)
 st.markdown('**Estado:** '+ fEstado)
 
