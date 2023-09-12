@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 # Função para ler o arquivo xlsx
 @st.cache_data  # Use st.cache_data para dados que não mudam com o tempo
 def ler_arquivo_xlsx():
-    df = pd.read_excel(r"C:/Users/Clayton Medeiros/PycharmProjects/proj_preços_gas/preco_mensal_estados-desde_jan2013.xlsx")
+    df = pd.read_excel("preco_mensal_estados-desde_jan2013.xlsx")
     return df
 
 # Ler o arquivo XLSX
